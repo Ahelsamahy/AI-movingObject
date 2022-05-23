@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MovingObjectWF/1.0.0": {
+        "dependencies": {
+          "movingObjectTerminal": "1.0.0"
+        },
+        "runtime": {
+          "MovingObjectWF.dll": {}
+        }
+      },
+      "movingObjectTerminal/1.0.0": {
+        "runtime": {
+          "Final.exe": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MovingObjectWF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "movingObjectTerminal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

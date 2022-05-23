@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "movingObjectTerminal/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/movingObjectTerminal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/movingObjectTerminal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "movingObjectTerminal/1.0.0": {
+      "type": "project",
+      "path": "../Final/movingObjectTerminal.csproj",
+      "msbuildProject": "../Final/movingObjectTerminal.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "movingObjectTerminal >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Mahfouz\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Work\\Collage\\Second Year\\Second Semester\\Ai\\Ede\\Project\\MovingObjectWF\\MovingObjectWF.csproj",
+      "projectName": "MovingObjectWF",
+      "projectPath": "D:\\Work\\Collage\\Second Year\\Second Semester\\Ai\\Ede\\Project\\MovingObjectWF\\MovingObjectWF.csproj",
+      "packagesPath": "C:\\Users\\Mahfouz\\.nuget\\packages\\",
+      "outputPath": "D:\\Work\\Collage\\Second Year\\Second Semester\\Ai\\Ede\\Project\\MovingObjectWF\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Mahfouz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "D:\\Work\\Collage\\Second Year\\Second Semester\\Ai\\Ede\\Project\\Final\\movingObjectTerminal.csproj": {
+              "projectPath": "D:\\Work\\Collage\\Second Year\\Second Semester\\Ai\\Ede\\Project\\Final\\movingObjectTerminal.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
